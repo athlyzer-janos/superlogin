@@ -1,11 +1,12 @@
 {
-  "name": "@fitconsulting/superlogin",
-  "version": "1.3.0",
+  "name": "@athlyzer/superlogin",
+  "version": "1.3.1",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/sen-su/superlogin.git"
+    "url": "git+https://github.com/sen-su/superlogin.git"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -29,11 +30,7 @@
   ],
   "author": "Colin Skow",
   "contributors": [
-    {
-      "name": "Bjorn Stromberg",
-      "email": "bjorn@bjornstar.com",
-      "url": "http://bjornstar.com/about"
-    }
+    "Bjorn Stromberg <bjorn@bjornstar.com> (http://bjornstar.com/about)"
   ],
   "license": "MIT",
   "bugs": {
@@ -71,5 +68,9 @@
     "rimraf": "^2.5.2",
     "sinon": "^3.3.0",
     "sinon-chai": "^2.14.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
